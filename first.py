@@ -1,0 +1,16 @@
+def second():
+    a = int(input("input a\n"))
+    b = int(input("input b\n"))
+    print("a + b\t", a + b)
+    print("a - b\t", a - b)
+    print("a * b\t", a * b)
+    print("a / b\t", a / b)
+
+name = input("What is your name?\n")
+age = int(input("How old are you?\n"))
+city = input("Where are you live?\n") 
+print(f"Hello, {name}")
+print(f"Your age is, {age}")
+print(f"You live in, {city}")
+print("Go next\n\n")
+second()
