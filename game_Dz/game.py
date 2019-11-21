@@ -35,7 +35,7 @@ class MyFirstGUI:
         if (event.y - self.y)**2 + (event.x - self.x)**2 <= self.r**2:
             self.points += 1
             self.x = -1000
-#видалення круга при кліку
+			#видалення круга при кліку
             self.canv.delete(self.text)
             self.canv.delete(self.ball)
             self.text = self.canv.create_text(60,20, text="Score: " + str(self.points), font = 'Arial 20')
