@@ -10,11 +10,10 @@ class Some:
     def name(self):
         return self._name
     @name.setter
-
     def name(self, value):
         self._name = value
     
 
 s = Some('sad')
-s = 'jjjj'
-print(s)
+#s = 'jjjj'
+print(s.getname())
